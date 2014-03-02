@@ -1,0 +1,92 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Calibri", "sans";
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+h1 {
+    color: #fff;
+}
+
+.albums {
+}
+
+.album {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.album .artist-name {
+    font-style: normal;
+    font-weight: bold;
+    color: #464643;
+}
+
+.album .artist-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.album button.queue {
+}
+
+.playlist {
+    color: #222222;
+    background-color: #464643;
+    border-style: none;
+}
+
+.playlist button.control {
+}
+
+.playlist button.play {
+}
+
+.playlist button.play:hover {
+}
+
+.playlist button.pause {
+}
+
+.playlist button.pause:hover {
+}
+
+.playlist button.prev {
+}
+
+.playlist button.prev:hover {
+}
+
+.playlist button.next {
+}
+
+.playlist button.next:hover {
+}
+
+.playlist .album .queue.add {
+}
+
+.playlist .album.current {
+    background-color: #eeeeee;
+    border-width:6.5px;	
+    border-style:dotted;
+}
+
+.playlist .album.current .tracks .current {
+    background-color: #6699FF;
+}
+
+.playlist .album .tracks li {
+    font-style: normal;
+    padding: .3em;
+}
+
+.library {
+    background-color: #eeeeee;
+}
+
+.library .album .queue.remove {
+}
+
+.library .album .tracks {
+}
